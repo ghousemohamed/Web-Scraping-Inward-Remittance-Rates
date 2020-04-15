@@ -42,7 +42,7 @@ for(let i = 0; i< canara_table_data.length; i+=1) {
 }
 
  const mod_data = icici_data['0'].split('\n');
-
+ 
  const countries = ['USA', 'Canada', 'UK', 'Australia', 'Singapore', 'UAE']
  const table_data = mod_data.filter(data => data !== '');
  let exchange_rate_icici = []
